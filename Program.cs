@@ -10,7 +10,10 @@ namespace practicagit
     {
         static void Main(string[] args)
         {
-            double n1, n2, n3, prom, i = 0;
+            
+            double n1, n2, n3, prom;
+            
+            
 
             Console.WriteLine("Por favor, ingrese la primera nota del alumno.");
             n1 = Convert.ToDouble(Console.ReadLine());
