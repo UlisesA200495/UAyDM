@@ -27,6 +27,10 @@ namespace practicagit
 
             Console.WriteLine("el promedio es de: {0} ", prom);
 
+                if(n1>=7 && n1<=10)
+                {
+                    Console.WriteLine("El alumno aprobo la materia, Felicitaciones.");
+                }
             }
 
             Console.ReadKey();
