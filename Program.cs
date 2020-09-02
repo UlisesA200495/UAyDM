@@ -42,12 +42,14 @@ namespace practicagit
                         {
                             Console.WriteLine("El alumno no aprobo la materia e ira a la mesa de febrero");
 
-                            Console.ReadKey();
+                            
                         }
                     }
                 }
-
+               
+                Console.ReadKey();
             }
+
         }
 
     }
