@@ -11,9 +11,10 @@ namespace practicagit
         static void Main(string[] args)
         {
             
-            double n1, n2, n3, prom;
+            double n1, n2, n3, prom,i=0;
             
-            
+            for(i=0;i<4;i++)
+            {
 
             Console.WriteLine("Por favor, ingrese la primera nota del alumno.");
             n1 = Convert.ToDouble(Console.ReadLine());
@@ -26,9 +27,10 @@ namespace practicagit
 
             Console.WriteLine("el promedio es de: {0} ", prom);
 
+            }
 
             Console.ReadKey();
-
+            
         }
     }
 }
