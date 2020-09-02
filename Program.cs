@@ -24,23 +24,23 @@ namespace practicagit
 
                 prom = (n1 + n2 + n3) / 3;
 
-                Console.WriteLine("el promedio es de: {0} ", prom);
+                Console.WriteLine("el promedio del alumno es de: {0} ", prom);
 
                 if (prom >= 7 && prom <= 10)
                 {
-                    Console.WriteLine("El alumno aprobo la materia, Felicitaciones");
+                    Console.WriteLine("El alumno aprobo la materia");
                 }
                 else
                 {
                     if (prom >= 4 && prom <= 7)
                     {
-                        Console.WriteLine("El alumno no aprobo la materia e ira a la mesa de diciembre");
+                        Console.WriteLine("El alumno no aprobo, debe ir a diciembre");
                     }
                     else
                     {
                         if (prom >= 1 && prom <= 4)
                         {
-                            Console.WriteLine("El alumno no aprobo la materia e ira a la mesa de febrero");
+                            Console.WriteLine("El alumno no aprobo, debe ir a febrero");
 
                             
                         }
