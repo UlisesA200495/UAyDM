@@ -12,38 +12,42 @@ namespace practicagit
         {
             double n1, n2, n3, prom, i = 0;
 
-            Console.WriteLine("Por favor, ingresar la primera nota del alumno.");
-            n1 = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("Por favor, ingresar la segunda nota del alumno.");
-            n2 = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("Por favor, ingresar la tercera nota del alumno.");
-            n3 = Convert.ToDouble(Console.ReadLine());
-
-            prom = (n1 + n2 + n3) / 3;
-
-            Console.WriteLine("el promedio es de: {0} ", prom);
-
-            if (prom >= 7 && prom <= 10)
+            for (i = 0; i < 5; i++)
             {
-                Console.WriteLine("El alumno aprobo la materia, Felicitaciones");
-            }
-            else
-            {
-                if (prom >= 4 && prom <= 7)
+
+                Console.WriteLine("Por favor, ingresar la primera nota del alumno.");
+                n1 = Convert.ToDouble(Console.ReadLine());
+                Console.WriteLine("Por favor, ingresar la segunda nota del alumno.");
+                n2 = Convert.ToDouble(Console.ReadLine());
+                Console.WriteLine("Por favor, ingresar la tercera nota del alumno.");
+                n3 = Convert.ToDouble(Console.ReadLine());
+
+                prom = (n1 + n2 + n3) / 3;
+
+                Console.WriteLine("el promedio es de: {0} ", prom);
+
+                if (prom >= 7 && prom <= 10)
                 {
-                    Console.WriteLine("El alumno no aprobo la materia e ira a la mesa de diciembre");
+                    Console.WriteLine("El alumno aprobo la materia, Felicitaciones");
                 }
                 else
                 {
-                    if (prom >= 1 && prom <= 4)
+                    if (prom >= 4 && prom <= 7)
                     {
-                        Console.WriteLine("El alumno no aprobo la materia e ira a la mesa de febrero");
+                        Console.WriteLine("El alumno no aprobo la materia e ira a la mesa de diciembre");
+                    }
+                    else
+                    {
+                        if (prom >= 1 && prom <= 4)
+                        {
+                            Console.WriteLine("El alumno no aprobo la materia e ira a la mesa de febrero");
 
-                        Console.ReadKey();
+                            Console.ReadKey();
+                        }
                     }
                 }
-            }
 
+            }
         }
 
     }
