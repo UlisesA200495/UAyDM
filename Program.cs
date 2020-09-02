@@ -26,7 +26,7 @@ namespace practicagit
 
                 Console.WriteLine("el promedio del alumno es de: {0} ", prom);
 
-                if (prom >= 7 && prom <= 10)
+                if (prom >= 1 && prom <= 4)
                 {
                     Console.WriteLine("El alumno aprobo la materia");
                 }
@@ -38,7 +38,7 @@ namespace practicagit
                     }
                     else
                     {
-                        if (prom >= 1 && prom <= 4)
+                        if (prom >= 7 && prom <= 10)
                         {
                             Console.WriteLine("El alumno no aprobo, debe ir a febrero");
 
@@ -46,7 +46,9 @@ namespace practicagit
                         }
                     }
                 }
-               
+
+                Console.WriteLine("hola solo soy un mensaje para un cambio");
+
                 Console.ReadKey();
             }
 
