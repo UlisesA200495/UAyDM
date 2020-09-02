@@ -31,6 +31,13 @@ namespace practicagit
                 {
                     Console.WriteLine("El alumno aprobo la materia, Felicitaciones.");
                 }
+                else
+                {
+                    if (n1 >= 4 && n1 <= 7)
+                    {
+                        Console.WriteLine("El alumno no aprobo la materia, debera ir a mesa de examen en diciembre.");
+                    }
+                }
             }
 
             Console.ReadKey();
