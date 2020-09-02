@@ -12,11 +12,11 @@ namespace practicagit
         {
             double n1, n2, n3, prom, i = 0;
 
-            Console.WriteLine("Por favor, ingrese la primera nota del alumno.");
+            Console.WriteLine("Por favor, ingresar la primera nota del alumno.");
             n1 = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("Por favor, ingrese la segunda nota del alumno.");
+            Console.WriteLine("Por favor, ingresar la segunda nota del alumno.");
             n2 = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("Por favor, ingrese la tercera nota del alumno.");
+            Console.WriteLine("Por favor, ingresar la tercera nota del alumno.");
             n3 = Convert.ToDouble(Console.ReadLine());
 
             prom = (n1 + n2 + n3) / 3;
