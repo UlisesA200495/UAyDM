@@ -27,15 +27,22 @@ namespace practicagit
 
             Console.WriteLine("el promedio es de: {0} ", prom);
 
-                if(n1>=7 && n1<=10)
+                if(prom>=7 && prom<=10)
                 {
                     Console.WriteLine("El alumno aprobo la materia, Felicitaciones.");
                 }
                 else
                 {
-                    if (n1 >= 4 && n1 <= 7)
+                    if (prom >= 4 && prom <= 7)
                     {
                         Console.WriteLine("El alumno no aprobo la materia, debera ir a mesa de examen en diciembre.");
+                    }
+                    else
+                    {
+                        if (prom >= 1 && prom <= 4)
+                        {
+                            Console.WriteLine("El alumno no aprobo la materia, debera ir a mesa de examen en diciembre.");
+                        }
                     }
                 }
             }
