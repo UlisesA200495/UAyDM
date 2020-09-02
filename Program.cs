@@ -34,20 +34,21 @@ namespace practicagit
                 {
                     if (prom >= 4 && prom <= 7)
                     {
-                        Console.WriteLine("El alumno no aprobo la materia e ira a la mesa de diciembre");
+                        Console.WriteLine("El alumno debe ir a diciembre.");
                     }
                     else
                     {
                         if (prom >= 1 && prom <= 4)
                         {
-                            Console.WriteLine("El alumno no aprobo la materia e ira a la mesa de febrero");
+                            Console.WriteLine("El alumno debe ir a febrero.");
 
-                            Console.ReadKey();
+                            
                         }
                     }
                 }
 
             }
+            Console.ReadKey();
         }
 
     }
